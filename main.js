@@ -7,7 +7,7 @@ fetch(url)
 
     data.results.map(item=>{
         let div = document.createElement("div")
-        div.setAttribute("class","card p-4 col-3  rounded")
+        div.setAttribute("class","card p-4 col-lg-3 col-md-4 rounded")
         let con = document.getElementById("container")
 console.log(item.image);
 let text= document.createElement("h5")
